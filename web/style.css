@@ -97,7 +97,7 @@ img {
 
 @media (min-width: 768px) {
   .navbtn {
-    display: none;
+    display: none !important;
   }
 
   .nav ul {
@@ -439,4 +439,14 @@ img {
 
 .plan .btn {
   width: auto;
+}
+
+/* hamburger */
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: currentColor !important;
 }
